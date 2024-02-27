@@ -1,7 +1,9 @@
 # logs-perf-test
 
 Instructions:
-* Add your Alchemy key to `.env` as `ALCHEMY_KEY=...`
+* Configure env with one of the following:
+  * Add your Alchemy key to `.env` as `ALCHEMY_KEY=...`; OR
+  * Add your RPC URL to `.env` as `RPC_URL=...`
 * Run `npm install`
 * Run `node .`
 

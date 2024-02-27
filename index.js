@@ -4,7 +4,8 @@ const ethers = require("ethers");
 const NUM_TESTS = 10;
 
 const ALCHEMY_KEY = process.env.ALCHEMY_KEY;
-const RPC_URL = `https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_KEY}`;
+const RPC_URL =
+  process.env.RPC_URL ?? `https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_KEY}`;
 const ARBITRUM_USDC_ADDRESS = "0xaf88d065e77c8cc2239327c5edb3a432268e5831";
 const ARBITRUM_CHAIN_ID = 42161;
 
